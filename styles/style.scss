@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+$theme-colors: (
+  "primary": #1E3E72,
+  "secondary": #00A3E0
+);
+$utilities: (
+  "opacity": (property: opacity,
+    class: o,
+    values: (0: 0,
+      25: .25,
+      50: .5,
+      75: .75,
+      100: 1,
+    ))
+);
+$enable-negative-margins: true;
+$enable-rounded: false;
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./slidestyle.css"
