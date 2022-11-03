@@ -15,7 +15,7 @@ const Contend = () => {
 
   return (
     <>
-      <Row style={{ backgroundColor: "#002d2d" }}>
+      <Row style={{ backgroundColor: "#002d2d",  marginTop:'4rem'  }}>
         <Col
           style={{ color: "#ffffff" }}
           xs={{ span: 24 }}

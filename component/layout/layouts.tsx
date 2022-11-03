@@ -6,8 +6,8 @@ const Contents = () => {
   const { Footer, Content } = Layout;
   return (
     <Layout>
-        <Headers />
-      <Content style={{ marginRight: 0 }}>
+      <Headers />
+      <Content style={{ marginRight: 0}}>
         <Contend />
       </Content>
       <Footer style={{ background: " #002e25", color: "#ffffff" }}>

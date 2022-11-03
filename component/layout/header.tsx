@@ -35,7 +35,7 @@ const Headers = () => {
 
   return (
     <>
-      <nav className="nav-bar">
+      <nav className="nav-bar sticky">
         {!isMobile ? (
           <>
             <div className="d-flex justify-content-between">
